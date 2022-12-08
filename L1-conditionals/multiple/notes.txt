@@ -1,0 +1,35 @@
+1. Understanding problem statements.
+2. Coming up with test cases:
+Test Case:
+test case1:
+input:
+3
+output:
+6
+
+test case2:
+input:
+999999
+output:
+1999998
+
+test case 3:
+input:
+235
+output:
+470
+
+test case 4:
+input:
+100
+output:
+200
+
+3. Coming up with logic:
+Algo
+1. Read the integer and store it in variable--say number.
+3. Check whether it is 1<N<10^9.
+3. If yes,multiply it by 2.
+4. Show the output.
+
+4. Convert to Code.

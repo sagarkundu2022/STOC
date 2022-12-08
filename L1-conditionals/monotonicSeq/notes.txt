@@ -1,0 +1,56 @@
+1. Understanding problem statements.
+2. Coming up with test cases:
+Test Cases:
+test case1:
+input:
+5
+3
+6
+9
+12
+16
+output:
+1
+
+test case2:
+input:
+4
+16
+12
+8
+4
+output:
+1
+
+test case3:
+input:
+5
+16
+18
+10
+6
+24
+output:
+0
+
+test case4:
+input:
+4
+8
+14
+2
+6
+output:
+0
+
+3. Coming up with logic:
+Algo
+1. Read the seq. Length and store it.
+2. Maintain two variables--say currNum and prevNum and initialise them into nothing.
+3. Read currNum .
+4. Read another number of the sequence and store it as prevNum.
+5. Repeat 3-4.
+6. If prevNum> currNum || prevNum<currNum, print '1'.
+7. Otherwise, print 0.
+
+4. Convert to code.

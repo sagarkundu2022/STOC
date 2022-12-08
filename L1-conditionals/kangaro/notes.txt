@@ -1,0 +1,5 @@
+1. Read length.
+2. Read x1,v1,x2,v2.
+3 After fist jump k1 qill be at x1+v1 and k2 will be at x2+v2.
+4. If k1 equals to k2, print YES.
+5. Otherwise x1 will become x1+v1 and x2 become x2+v2

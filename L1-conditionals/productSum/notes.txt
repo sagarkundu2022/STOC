@@ -1,0 +1,27 @@
+Test cases:
+test case1:
+input:
+234
+exp output:
+15
+
+test case2:
+input:
+4421
+output:
+21
+
+test case3:
+input:
+65
+output:
+19
+
+Algo:
+1. Read the number.
+2. Find the length of the number.
+3. Split it into no-space separated value.
+4. Find the product of each digit and store it.
+5. Find the sum of each digit and store it.
+6. Find the diff. b/w product and sum.
+7. Show the diff.

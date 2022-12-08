@@ -1,0 +1,29 @@
+1. Understanding problem statements.
+2. Coming up eith test cases:
+test case1:
+input:
+123
+output:
+321
+test case2:
+input: 120
+output: 21 (zero can be removed from staring)
+test case3:
+input: -123
+output -321
+test case4:
+input: 1234
+output: 4321
+test case4:
+input: 100
+output: 1
+
+3. Coming up with logic:
+Algo:
+1. Read the input.
+2. Maintain a varible say reversed and Initializing it into blank.
+3. Find the remainder and keep it as the first digit of the reversed integer.
+4. If the first digit of the reversed integer is 0, removed that.
+5. Show the reversed integer.
+
+4. Converting logic to code:

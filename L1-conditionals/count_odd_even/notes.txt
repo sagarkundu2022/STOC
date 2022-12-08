@@ -1,0 +1,49 @@
+1. Understanding problem statements.
+2. Coming up with test cases.
+Test Cases:
+test case1:
+input:
+5
+12
+14
+15
+13
+18
+expected output:
+2
+3
+test case2:
+input:
+6
+10
+22
+29
+55
+98
+32
+expected output:
+2
+4
+test case3:
+5
+12
+15
+14
+87
+59
+expected output:
+3
+2
+------
+3. Coming up with Logic:
+Algo:
+1. Maintain 2 counts -- say countEven, countOdd. Initializing them to 0.
+2. Read list length and store it in a variable--say listLen.
+3. If iteration count is greater than listLen, print the result and exit the program. 
+3. Read listItem and store in a variable. 
+4. If listItem is odd, increment countOdd.
+5. If listItem is even, increment countEven.
+6. Keep repeating 3-5. 
+
+4. Convert logic to code:
+
