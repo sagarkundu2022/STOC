@@ -6,45 +6,31 @@ function readLine() {
     idx++;
     return data[idx - 1].trim();
 }
-
-// Algo
-// 1. Read the seq. Length and store it.
-// 2. Maintain two variables--say currNum and prevNum and initialise them into nothing.
-// 3. Read currNum .
-// 4. Read another number of the sequence and store it as nxtvNum.
-// 5. Repeat 3-4.
-// 6. If prevNum> currNum || prevNum<currNum, print '1'.
-// 7. Otherwise, print 0.
-
 // 5
 // 3
-// 1
+// 12
 // 34
-// 34
+// 3
 // 56
+
 let n = parseInt(readLine());//5
 let preNum = parseInt(readLine());//3
+let flag = 1;
 let inc = true;
 let dec = true;
-let monotonic = 1;
 
-for (let i = 1; i < n; i++) {//true
-    let currNum = parseInt(readLine());//1
-    if (currNum > preNum) {
+for (let i = 1; i < n; i++) {//1 < 5 2<5 3<5 4<5
+    let currNum = parseInt(readLine());//12 34 3 56
+    if (currNum >= preNum) {
         dec = false;
-    } //false
-
-    if (currNum < preNum) {
+    } else if (currNum <= preNum) {
         inc = false;
-    } // true
-    preNum = currNum;
+    }
+    preNum = currNum;//12 34 34 56
     if (!inc && !dec) {
-        monotonic = 0//NOT MONOTONIC
+        flag = 0;
         break;
     }
+
 }
-console.log(monotonic);
-
-
-
-
+console.log(flag);
